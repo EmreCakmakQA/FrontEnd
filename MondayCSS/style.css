@@ -1,0 +1,33 @@
+body {
+    background-color: blue;
+  }
+
+
+  h1 {
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  #transformMe {
+    transform: translate(10px, 50px) rotateY(180deg) skew(-25deg, 20deg); 
+    
+}
+
+
+p {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.display {
+    text-align: center;
+    background-color: turquoise;
+}
+  
