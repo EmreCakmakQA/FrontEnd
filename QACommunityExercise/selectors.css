@@ -1,0 +1,52 @@
+a:link {
+    color: #ff0000;
+}
+
+a:visited {
+    color: #4800ff;
+}
+
+a:hover {
+    color: #808080;
+}
+
+a:active {
+    color: #4cff00;
+}
+
+p::first-line {
+    color: blue;
+}
+
+p::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+
+p::before {
+    content: url(https://media.tenor.com/images/7db260732bbe2a6024d78ac75a3cb18d/tenor.gif);
+}
+p::after {
+    content: url(https://media.tenor.com/images/7db260732bbe2a6024d78ac75a3cb18d/tenor.gif);
+}
+
+p.highlight:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+/* p.start::before{
+    content: "Read this -- ";
+}
+p.end::after{
+    content: "More to come --";
+} */
+p[class="start"]::before {
+    content: "Read this -- ";
+}
+
+p[class="end"]::after {
+    content: "More to come -- ";
+}

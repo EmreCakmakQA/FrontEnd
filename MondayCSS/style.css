@@ -1,5 +1,6 @@
 body {
     background-color: blue;
+    margin: 0;
   }
 
 
@@ -10,6 +11,13 @@ body {
     font-size: 3rem;
     text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: ease-in-out 0.3s;
+    
+  }
+
+  h1:hover {
+    font-size: 3.2rem;
+   
   }
 
 
@@ -24,6 +32,10 @@ p {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+p::first-letter{
+    color: tomato;
 }
 
 .display {
