@@ -1,0 +1,31 @@
+img{
+    max-width: 500px;
+    height:350px;
+    margin: auto;
+}
+
+.carousel-control-prev{
+    background-color: rgb(46, 42, 42);
+}
+
+.carousel-control-next{
+    background-color: rgb(46, 42, 42);
+}
+
+#navdiv{
+    margin-bottom: 100px;
+}
+
+#cardiv{
+    margin-bottom: 100px;
+}
+
+#formdiv{
+    margin: 10px 100px;
+}
+
+#modal-btn{
+    margin: 25px 0px;
+
+}
+
