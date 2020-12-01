@@ -1,0 +1,55 @@
+#amazon-logo{
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #1b2445;
+    
+}
+
+#acc{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#cart{
+    max-width: 100px;
+    height: auto;
+}
+
+#amazon-music{
+    max-width: 100px;
+    height: auto;
+}
+
+.body{
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.device-img{
+    max-width: 100px;
+    height: auto;
+}
+
+.fire-tablets{
+    border: black 1px solid;
+}
+
+.echo-buds{
+    float: left;
+    border: black 1px solid;
+}
+
+.amazon-devices{
+    float: right;
+    border: black 1px solid;
+}
+
+.blue-bit{
+    margin: 10px 50px;
+
+}
