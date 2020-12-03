@@ -1,7 +1,10 @@
 // fetch the data
+let id = document.getElementById("inputID").value;
+getData(id);
 
-function getData() {
-    fetch('http://jsonplaceholder.typicode.com/comments')
+function getData(id) {
+    let newID = parseInt(id);
+    fetch('http://jsonplaceholder.typicode.com/comments/' + newID)
         .then(
             function (response) {
                 if (response.status !== 200) {
@@ -37,5 +40,4 @@ function createPara(data) {
 
 
 
-
-getData();
+document.getElementById("btn").addEventListener("click", getData(id));
